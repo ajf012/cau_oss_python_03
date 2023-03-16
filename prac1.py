@@ -1,7 +1,7 @@
-Transverse = float(input("transverse:"))
-Length = float(input("length:"))
-Height = float(input("height:"))
+Transverse = float(input("가로:"))
+Length = float(input("세로:"))
+Height = float(input("높이:"))
 
 Volume = Transverse * Length * Height
 
-print("The volume of the box is:", Volume)
+print("박스의 부피는", Volume, "입니다")
