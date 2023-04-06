@@ -34,7 +34,7 @@ while True:
     elif op == "+":
         num1, num2, ret = arithmetic_ops(add) # 정의된 함수 사용
     elif op == "*":
-        num1, num2, ret = arithmetic_ops(lambda x,y:x*y) # 익명함수(lambda) 사용
+        num2, num2, ret = arithmetic_ops(lambda x,y:x*y) # 익명함수(lambda) 사용
     elif op == "-":
         num1, num2, ret = arithmetic_ops(sub)
     elif op == "/":
